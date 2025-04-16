@@ -1,0 +1,40 @@
+<!-- File: dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Safai Setu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Safai Setu</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="waste-selection.html">Waste Type</a></li>
+        <li><a href="address.html">Address</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="dashboard">
+    <h2>Request Pickup / View Schedule</h2>
+    <form class="form" action="waste-selection.html">
+      <label for="pickup-date">Select Pickup Date:</label>
+      <input type="date" id="pickup-date" name="pickup-date" required>
+
+      <label for="pickup-time">Select Pickup Time:</label>
+      <input type="time" id="pickup-time" name="pickup-time" required>
+
+      <button class="btn">Schedule Pickup</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 Safai Setu | Designed for a Cleaner Future</p>
+  </footer><script src="script.js"></script>
+</body>
+</html>
